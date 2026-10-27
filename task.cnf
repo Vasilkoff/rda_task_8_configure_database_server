@@ -20,7 +20,7 @@ pid-file      = /var/run/mysqld/mysqld.pid
 socket        = /var/run/mysqld/mysqld.sock
 port          = 3000
 datadir       = /data
-
+#log_error = /var/log/mysql/error.log
 slow_query_log		= 1
 slow_query_log_file	= /data/mysql-slow.log
 # If MySQL is running as a replication slave, this should be
